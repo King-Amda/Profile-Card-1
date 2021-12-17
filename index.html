@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Profile Card | Nipun </title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="container">
+         <div class="wrapper">
+            <a href="#">
+            <img src="#" alt="">
+            </a>
+            <div class="title">
+               Lasindu Senash
+            </div>
+            <div class="place">
+               Galle , Sri Lanka
+            </div>
+         </div>
+         <div class="content">
+            <p>
+               User Web Designer and <br>front-end developer
+            </p>
+            <div class="buttons">
+               <div class="btn">
+                  <button>Message</button>
+               </div>
+               <div class="btn">
+                  <button>Following</button>
+               </div>
+            </div>
+         </div>
+         <div class="icons">
+            <li><a href="https://github.com/King-Amda"><span class="fab fa-github-f"></span></a></li>
+            <li><a href="https://twitter.com/Amda3King"><span class="fab fa-twitter"></span></a></li>
+            <li><a href="https://t.me/NiupunDinujayaOffline"><span class="fab fa-telegram"></span></a></li>
+         </div>
+      </div>
+      <script>
+         const img = document.querySelector("img");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+      </script>
+   </body>
+</html>
